@@ -1,0 +1,88 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+}
+
+.hero {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+		url(img/background.png);
+	height: 100vh;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	padding: 0% 10%;
+}
+
+.logo {
+	width: 110px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 10px 25px;
+}
+
+nav ul li a {
+	color: aliceblue;
+	font-size: 18px;
+	transition: all ease 0.5s;
+}
+
+nav ul li a:hover {
+	color: #ff5361;
+}
+
+.btn {
+	background: #ff5361;
+	color: aliceblue;
+	padding: 10px 40px;
+	border-radius: 30px;
+	margin-left: 25px;
+	transition: all ease 0.5s;
+}
+
+.content {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: aliceblue;
+}
+
+.content h1 {
+	margin-bottom: 20px;
+	letter-spacing: 1px;
+	font-size: 50px;
+}
+
+.content input {
+	width: 90%;
+	max-width: 840px;
+	height: 55px;
+	border-radius: 30px;
+	border: none;
+	padding: 0 30px;
+	outline: none;
+	margin: 20px 0;
+	font-size: 16px;
+}
+
+::placeholder {
+	font-weight: 500;
+	font-size: 16px;
+}
