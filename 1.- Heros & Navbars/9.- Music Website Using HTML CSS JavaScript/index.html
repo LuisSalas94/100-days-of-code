@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+			integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+			crossorigin="anonymous"
+		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>HeadSet & Play a Song WebSite 🎹</title>
+	</head>
+	<body>
+		<div class="hero">
+			<!-- part1 -->
+			<header>
+				<span class="logo">GAaMa</span>
+				<nav>
+					<ul class="nav-links">
+						<li><a href="#">home</a></li>
+						<li><a href="#">about</a></li>
+						<li><a href="#">specifications</a></li>
+						<li><a href="#">products</a></li>
+						<li><a href="#">connect</a></li>
+					</ul>
+				</nav>
+			</header>
+			<!-- part2 -->
+			<section class="sound">
+				<h1 class="text">the <br />real <br />sound</h1>
+				<div class="play">
+					<p class="play-text">Click Here To Listen</p>
+
+					<audio id="myAudio">
+						<source src="mp3.mp3" />
+					</audio>
+
+					<div class="buttons">
+						<button onclick="playAudio()" type="button">
+							<i class="fas fa-play"></i>
+						</button>
+
+						<button onclick="pauseAudio()" type="button">
+							<i class="fas fa-pause"></i>
+						</button>
+					</div>
+				</div>
+			</section>
+		</div>
+		<script>
+			let x = document.getElementById("myAudio");
+
+			function playAudio() {
+				x.play();
+			}
+
+			function pauseAudio() {
+				x.pause();
+			}
+		</script>
+	</body>
+</html>

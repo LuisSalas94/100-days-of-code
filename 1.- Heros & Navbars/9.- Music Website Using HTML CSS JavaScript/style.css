@@ -1,0 +1,101 @@
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+.hero {
+	height: 100vh;
+	width: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+		url(background.jpg);
+	background-position: center;
+	background-size: cover;
+	padding: 0 10%;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 0;
+}
+
+header .logo {
+	font-size: 25px;
+	cursor: pointer;
+	letter-spacing: 0.5;
+	color: #025955;
+}
+
+.nav-links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-links li {
+	padding: 0 20px;
+}
+
+.nav-links li a {
+	color: #333;
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	cursor: pointer;
+	transition: all ease 0.5s;
+}
+
+.nav-links li a:hover {
+	color: #025955;
+	font-size: 18px;
+	border-bottom: 2px solid #025955;
+}
+
+.sound {
+	height: 80vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+	left: 100px;
+}
+
+.sound .text {
+	font-size: 80px;
+	text-transform: uppercase;
+	color: #fff;
+	position: relative;
+	right: 90px;
+}
+
+.play-text {
+	font-size: 23px;
+	letter-spacing: 0.5px;
+	color: #333;
+	margin-bottom: 10px;
+}
+
+.buttons {
+	text-align: center;
+}
+
+.buttons button {
+	padding: 10px;
+	margin: 0 5px;
+	border-radius: 50%;
+	outline: none;
+	border: none;
+}
+
+.buttons button i {
+	color: #333;
+}

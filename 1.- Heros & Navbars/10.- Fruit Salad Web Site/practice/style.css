@@ -1,0 +1,161 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+
+.hero {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+}
+
+.white {
+	height: 100vh;
+	width: 50%;
+	background-color: #fff;
+	padding: 10px 5%;
+}
+
+.pink {
+	height: 100vh;
+	width: 50%;
+	background-color: #ff8678;
+	padding: 10px 5%;
+}
+
+.nav-links {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 20px 0;
+}
+
+.nav-links div {
+	padding: 0 60px;
+}
+
+.nav-links p {
+	padding-left: 20px;
+}
+
+.nav-links .search {
+	display: flex;
+	align-items: center;
+}
+
+.nav-links .search input {
+	width: 300px;
+	background-color: transparent;
+	padding: 10px 50px;
+	border-radius: 30px;
+	outline: none;
+	position: relative;
+	background-color: #ffa99c;
+	border: none;
+}
+
+::placeholder {
+	color: #fff;
+	position: relative;
+	left: -30px;
+}
+
+.nav-links .search .search-logo {
+	width: 20px;
+	position: absolute;
+	right: 450px;
+}
+
+.nav-links .save {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.nav-links .save p {
+	color: #fff;
+	font-size: 18px;
+}
+
+.nav-links .save .save-icon {
+	width: 20px;
+}
+
+.nav-links p {
+	color: #fff;
+	cursor: pointer;
+}
+
+.pico-gallo {
+	height: 80vh;
+	display: flex;
+	width: 50%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.pico-gallo h1 {
+	text-align: left;
+	font-size: 50px;
+	letter-spacing: 0.5px;
+}
+
+.pico-gallo .rating {
+	width: 120px;
+	margin-bottom: 20px;
+}
+
+.pico-gallo p {
+	margin-top: 30px;
+	margin-bottom: 70px;
+	color: #333;
+	letter-spacing: 0.5px;
+	line-height: 22px;
+}
+
+.pico-gallo .ingre {
+	color: #fff;
+	padding: 15px 20px;
+	background-color: #ff8678;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.pico-gallo .ingre img {
+	margin-left: 12px;
+}
+
+.fruits {
+	width: 600px;
+	position: absolute;
+	transform: translateX(100%);
+	top: 150px;
+}
+
+.fruits-bowls {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 150px;
+	position: relative;
+}
+
+.fruits-bowls img {
+	width: 280px;
+	position: relative;
+	top: 120px;
+	left: 40px;
+}
+
+.arrow {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.arrow2 {
+	display: flex;
+}
