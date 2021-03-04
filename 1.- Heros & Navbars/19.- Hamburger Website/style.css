@@ -1,0 +1,138 @@
+/* 
+#FFF007
+*/
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+.hero {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+}
+
+/* Left Side */
+
+.left-side {
+	width: 5%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.left-side-black {
+	height: 60%;
+	width: 100%;
+	background-color: #000;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 50px 0;
+}
+
+.left-side-black i {
+	font-size: 20px;
+	margin: 15px 0;
+	cursor: pointer;
+}
+
+.left-side-yellow {
+	height: 40%;
+	width: 100%;
+	background-color: #fff007;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.left-side-yellow i {
+	font-size: 15px;
+	margin: 20px 0;
+	border: 1px solid #333;
+	padding: 8px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+/* Right Side */
+
+.right-side {
+	width: 95%;
+	height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)),
+		url(img/hamburger.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.navbar {
+	color: #fff;
+	padding: 20px 5%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar ul {
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	cursor: pointer;
+	font-size: 40px;
+	transition: all ease 0.7;
+}
+
+.navbar-links a {
+	font-size: 16px;
+	color: #fff;
+	margin: 0 45px;
+	text-transform: uppercase;
+	transition: all ease 0.7s;
+}
+
+.navbar-links a:hover {
+	border-bottom: 2px solid #fff007;
+}
+
+.navbar-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	border: 1px solid #fff007;
+	color: #000;
+	background-color: #fff007;
+	padding: 5px 20px;
+	cursor: pointer;
+}
+
+.right-side-inner-content {
+	height: 70vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 0 5%;
+	color: #fff;
+}
+
+.right-side-inner-content h1 {
+	font-size: 50px;
+	margin-bottom: 40px;
+}
+
+.right-side-inner-content span {
+	color: #fff007;
+}
