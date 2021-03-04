@@ -1,0 +1,153 @@
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+.hero {
+	height: 100vh;
+	width: 100%;
+	padding: 10px 5%;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	width: 110px;
+	cursor: pointer;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar ul {
+	display: flex;
+	margin: 0 50px;
+}
+
+.navbar ul li {
+	margin: 0 40px;
+}
+
+.navbar ul li a {
+	color: #333;
+	font-size: 15px;
+	text-transform: uppercase;
+	transition: all ease 0.5s;
+}
+
+.navbar ul li a:hover {
+	border-bottom: 3px solid red;
+}
+
+.inner-icons li img {
+	width: 25px;
+	cursor: pointer;
+}
+
+.inner-content {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* left side */
+.inner-content-left-side {
+	width: 40%;
+	height: 90vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.inner-content-left-side .search {
+	width: 45%;
+	margin-bottom: 100px;
+	border: 1px solid #7d7d7d;
+	line-height: 1.5;
+	font-size: 16px;
+	padding: 5px 10px;
+	border-radius: 30px;
+	outline: none;
+}
+
+.inner-content-left-side h1 {
+	font-size: 70px;
+}
+
+.inner-content-left-side p {
+	color: #7d7d7d;
+	margin: 60px 0;
+	font-size: 18px;
+}
+
+.btn {
+	border: 1px solid #fe5c61;
+	padding: 10px 30px;
+	border-radius: 30px;
+	background-color: #fe5c61;
+	color: #fff;
+	margin: 0 5px;
+}
+
+.btn2 {
+	border: 1px solid #fe5c61;
+	padding: 10px 30px;
+	border-radius: 30px;
+	color: #fe5c61;
+	margin: 0 5px;
+	background-color: #fff;
+}
+
+.inner-content-logos {
+	margin-top: 100px;
+}
+
+.joy {
+	color: #fe5c61;
+}
+
+/* right side */
+.inner-content-right-side {
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.fruit-img {
+	width: 100%;
+}
+
+.inner-content-logos {
+	display: flex;
+	align-items: center;
+}
+
+.inner-content-line {
+	width: 150px;
+	height: 1px;
+	background-color: #7d7d7d;
+}
+
+.inner-content-logos i {
+	color: #7d7d7d;
+	cursor: pointer;
+	font-size: 18px;
+	margin: 0 10px;
+	padding: 0 5px;
+	transition: all ease-in-out 0.6s;
+}
+
+.inner-content-logos i:hover {
+	transform: scale(1.5);
+}
