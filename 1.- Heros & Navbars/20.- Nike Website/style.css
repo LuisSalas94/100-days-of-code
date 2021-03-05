@@ -1,0 +1,185 @@
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+.hero {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	color: #fff;
+	overflow: hidden;
+	font-family: "Oswald", sans-serif;
+}
+
+/* left Side */
+.left-side {
+	width: 70%;
+	height: 100vh;
+	background: linear-gradient(rgba(0, 105, 233, 0.8), rgba(0, 105, 233, 0.8)),
+		url(img/background.jpg);
+	background-position: left;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.left-side-inner-content {
+	padding: 10px 5%;
+}
+
+.nav-links {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0;
+}
+
+.nav-links a {
+	text-transform: uppercase;
+	color: #fff;
+	margin: 0 30px;
+}
+
+.nav-links img {
+	width: 90px;
+	cursor: pointer;
+	color: aqua;
+}
+
+.inner-link {
+	width: 100%;
+	height: 1px;
+	background-color: #fff;
+}
+
+.ls {
+	letter-spacing: 10px;
+}
+
+.nike img {
+	position: relative;
+	left: 660px;
+	bottom: 330px;
+}
+
+.left-side-inner-text .nike-h1 {
+	position: relative;
+	font-size: 120px;
+	left: 370px;
+	top: 150px;
+	opacity: 0.5;
+	letter-spacing: 10px;
+}
+
+.left-side-inner-text h2 {
+	font-size: 60px;
+	position: relative;
+	top: 120px;
+	left: 280px;
+	opacity: 0.5;
+	letter-spacing: 10px;
+}
+
+.other-text h1 {
+	font-size: 90px;
+	position: relative;
+	position: absolute;
+	bottom: 240px;
+	left: 1000px;
+	opacity: 0.5;
+}
+
+.other-text h2 {
+	font-size: 50px;
+	position: absolute;
+	bottom: 205px;
+	left: 920px;
+	opacity: 0.5;
+}
+
+.other-text h3 {
+	font-size: 50px;
+	position: absolute;
+	bottom: 165px;
+	left: 1150px;
+	opacity: 0.5;
+}
+
+/* Right side */
+.right-side {
+	width: 30%;
+	height: 100vh;
+	background-color: #fff;
+}
+
+.right-side-links {
+	display: flex;
+	justify-content: flex-end;
+	padding: 20px 5%;
+}
+
+.right-side-links li i {
+	color: #333;
+	font-size: 18px;
+	margin: 0 20px;
+	cursor: pointer;
+}
+
+.inner-box {
+	width: 120px;
+	height: 120px;
+	border: 1px solid #333;
+	display: flex;
+	padding: 0 1%;
+	position: relative;
+	position: absolute;
+	bottom: 80px;
+	left: 1500px;
+}
+
+.inner-text {
+	color: #333;
+	font-size: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.inner-colors {
+	color: #333;
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.little-box {
+	width: 12px;
+	height: 12px;
+	margin: 5px 0;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.red {
+	background-color: red;
+}
+
+.green {
+	background-color: green;
+}
+
+.grey {
+	background-color: gray;
+}
+
+.black {
+	background-color: black;
+}
