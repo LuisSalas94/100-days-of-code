@@ -13,6 +13,7 @@
 		url(img/girl.jpg);
 	background-position: bottom;
 	background-size: cover;
+	overflow: hidden;
 }
 
 header {
