@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+			integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>Sticky Navigation Bar On Scroll Using Vanilla Javascript</title>
+	</head>
+	<body>
+		<header>
+			<a href="#" class="logo">Logo</a>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Portfolios</a></li>
+				<li><a href="#">Team</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</header>
+		<section class="banner"></section>
+		<script>
+			window.addEventListener("scroll", function () {
+				let header = document.querySelector("header");
+				header.classList.toggle("sticky", window.scrollY > 0);
+			});
+		</script>
+	</body>
+</html>
